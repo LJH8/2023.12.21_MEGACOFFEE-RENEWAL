@@ -1,0 +1,77 @@
+{
+  "food": [
+    {
+      "item": "Dessert",
+      "item2": "newItem",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food1.jpg",
+      "name": "따끈따끈 간식꾸러미",
+      "eName": "Korean Street Dessert Pack",
+      "desc": "겨울 대표 간식 팥&슈크림 붕어빵과 앙버터호두과자, 꿀을 가득 머금은 미니호떡으로 구성된 돌아온 따끈따끈 간식꾸러미",
+      "gram": "148.4",
+      "Kcal": "521.79"
+    },
+    {
+      "item": "Dessert",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food2.jpg",
+      "name": "초코스모어쿠키",
+      "eName": "Chocolate S'mores Cookie",
+      "desc": "초코칩이 콕콕 박힌 촉촉한 초코 쿠키에 달콤하게 구운 마시멜로우가 만나 더 진한 초코 맛 쿠키.",
+      "gram": "133",
+      "Kcal": "578.9"
+    },
+    {
+      "item": "Dessert",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food3.jpg",
+      "name": "와앙 피자 보름달빵",
+      "eName": "Pizza Bread",
+      "desc": "한끼로도 든든한 중독적인 추억의 와앙 큰 소시지 피자빵",
+      "gram": "195",
+      "Kcal": "429"
+    },
+    {
+      "item": "Ade&juice",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food4.jpg",
+      "name": "와앙 콘마요 보름달빵",
+      "eName": "Corn mayonnaise Bread",
+      "desc": "톡톡 터지는 옥수수콘이 매력적인 와앙 큰 콘치즈마요 보름달빵",
+      "gram": "170",
+      "Kcal": "506"
+    },
+    {
+      "item": "Ade&juice",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food5.jpg",
+      "name": "뚱크림치즈약과쿠키",
+      "eName": "Cream Cheese Yakgwa Cookie",
+      "desc": "쿠키 안에 바닐라맛 크림치즈 가득! 달달하고 꾸덕한 약과가 통째로 올라간 쫀득한 쿠키",
+      "gram": "145",
+      "Kcal": "606"
+    },
+    {
+      "item": "Smoothie&Frappe",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food6.jpg",
+      "name": "오트밀 팬케이크",
+      "eName": "Oatmeal Pancake",
+      "desc": "건강한 오트밀가루로 만든 팬케이크에 달콤한 메이플 시럽과 프레지덩 버터, 쥬에그 과일잼이 더해진 팬케이크",
+      "gram": "112",
+      "Kcal": "400"
+    },
+    {
+      "item": "Smoothie&Frappe",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food7.jpg",
+      "name": "티라미수 팬케이크",
+      "eName": "Tiramisu Pancake",
+      "desc": "에스프레소의 향이 느껴지는 달콤한 팬케이크에 크리미한 크림이 가득 올라간 부드러운 티라미수 팬케이크",
+      "gram": "185",
+      "Kcal": "600"
+    },
+    {
+      "item": "Smoothie&Frappe",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food8.jpg",
+      "name": "그래놀라 스모어 쿠키",
+      "eName": "Granola S'mores Cookie",
+      "desc": "그래놀라가 콕콕 박힌 통곡물 쿠키에 달콤하게 구운 마시멜로우가 만나 더욱 건강한 쿠키",
+      "gram": "127",
+      "Kcal": "542"
+    }
+  ]
+}

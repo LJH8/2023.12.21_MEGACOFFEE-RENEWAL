@@ -1,0 +1,76 @@
+{
+  "drink": [
+    {
+      "item": "Coffee",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink5.jpg",
+      "name": "할메가커피",
+      "eName": "MEGA Mix Coffee",
+      "desc": "우리 할머니께서 즐겨드시던 달달한 믹스 커피 스타일로 만든 메가MGC커피만의 시원한 커피 음료",
+      "oz": "20",
+      "Kcal": "281.9"
+    },
+    {
+      "item": "Coffee",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink6.jpg",
+      "name": "왕할메가커피",
+      "eName": "BIG MEGA Mix Coffee",
+      "desc": "우리 할머니께서 즐겨드시던 달달한 믹스 커피 스타일로 만든 메가MGC커피만의 메가사이즈 커피 음료",
+      "oz": "32",
+      "Kcal": "468.7"
+    },
+    {
+      "item": "Ade&juice",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink3.jpg",
+      "name": "스노우 샹그리아 에이드",
+      "eName": "Snow Sangria Ade",
+      "desc": "레몬, 자몽, 석류, 백포도, 사과 등 다양한 과일로 맛을 낸 새하얀 스노우를 표현한 겨울한정 샹그리아 에이드",
+      "oz": "20",
+      "Kcal": "281.9"
+    },
+    {
+      "item": "Ade&juice",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink4.jpg",
+      "name": "화이트 뱅쇼",
+      "eName": "White Vin Chaud",
+      "desc": "레몬, 자몽, 석류, 백포도, 사과 등 다양한 과일로 맛을 낸 겨울한정 화이트 뱅쇼",
+      "oz": "20",
+      "Kcal": "281.9"
+    },
+    {
+      "item": "Ade&juice",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink8.jpg",
+      "name": "레드 오렌지 자몽 주스",
+      "eName": "Red Orange-Grapefruit Juice",
+      "desc": "엄선된 시칠리아 레드오렌지와 자몽이 만난 상큼한 주스에 프로바이오틱스를 더해 건강한 블렌딩 주스",
+      "oz": "20",
+      "Kcal": "281.9"
+    },
+    {
+      "item": "Smoothie&Frappe",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink7.png",
+      "name": "코코넛 쿠키 스무디",
+      "eName": "Coconut Coffee Smoothie",
+      "desc": "바삭하고 고소한 코코넛 칩을 올리고 쌉싸름한 커피와 달콤한 코코넛이 조화로운 스무디",
+      "oz": "20",
+      "Kcal": "281.9"
+    },
+    {
+      "item": "Smoothie&Frappe",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink1.jpg",
+      "name": "스모어 블랙쿠키 프라페",
+      "eName": "S'mores Black-Cookie Frappe",
+      "desc": "진한 초코스무디에 바삭한 쿠키를 넣어 쫀득 달콤한 마시멜로우 잼과 함께 달콤하게 즐기는 겨울 한정 프라페",
+      "oz": "20",
+      "Kcal": "281.9"
+    },
+    {
+      "item": "Smoothie&Frappe",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink2.jpg",
+      "name": "스모어 카라멜쿠키 프라페",
+      "eName": "S'mores Caramel-Cookie Frappe",
+      "desc": "로투스 쿠키와 함께 진한 카라멜 맛의 스무디를 쫀득 달콤한 마시멜로우 잼과 함께 즐기는 겨울 한정 프라페",
+      "oz": "20",
+      "Kcal": "281.9"
+    }
+  ]
+}

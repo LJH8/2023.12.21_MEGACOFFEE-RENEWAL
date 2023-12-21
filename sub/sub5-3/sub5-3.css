@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+
+/* sub5-3-main - S */
+.sub5-3-main {
+    padding: 100px 0;
+}
+.sub5-3-main .inner {}
+.sub5-3-main .notice-txt {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sub5-3-main .notice-txt .sub-tit {
+    font-size: 4.3rem;
+}
+.sub5-3-main .notice-txt span {}
+/* 탭메뉴 - S */
+.tab-menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.tab-menu li {
+    width: calc(100% / 7);
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #f4f6f8;
+}
+.tab-menu li:nth-child(1) {
+    border-bottom: none;
+    background-color: #fff;
+}
+.tab-menu li a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 1.6rem;
+    line-height: 50px;
+    text-align: center;
+}
+/* 탭메뉴 - E */
+/* 검색창 - S */
+.search-sec {
+    margin-bottom: 50px;
+}
+.search-sec .search-area {
+    display: flex;
+    gap: 5px;
+    width: 50%;
+}
+.search-sec .search-area .search-box {
+    height: 50px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+.search-sec .search-area select {
+    width: 100px;
+}
+.search-sec .search-area select option {}
+.search-sec .search-area .search-txt {
+    width: 35%;
+}
+.search-sec .search-area .search-txt label {}
+.search-sec .search-area .search-txt label input {
+    width: 100%;
+    height: 30px;
+}
+.search-sec .search-area .search-btn {}
+.search-sec .search-area .search-btn label {}
+.search-sec .search-area .search-btn label input {
+    width: 100px;
+    height: 50px;
+    font-weight: 500;
+    font-size: 1.8rem;
+    background-color: #fdd000;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+/* 검색창 - E */
+/* 게시판 - S */
+.notice-board {
+    margin-bottom: 50px;
+}
+.notice-board .notice-board-list {
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+.notice-board .notice-board-list li {
+    display: flex;
+    width: 100%;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+.notice-board .notice-board-list li:nth-child(1) .board-title {
+    text-align: center;
+}
+.notice-board .notice-board-list li span {
+    display: block;
+    text-align: center;
+    padding: 15px 8px;
+}
+.notice-board .notice-board-list li .board-number {
+    width: 75px;
+}
+.notice-board .notice-board-list li .board-title {
+    width: calc(100% - 425px);
+    text-align: start;
+}
+.notice-board .notice-board-list li .board-title a {}
+.notice-board .notice-board-list li .board-writer {
+    width: 150px;
+}
+.notice-board .notice-board-list li .board-date {
+    width: 100px;
+}
+.notice-board .notice-board-list li .board-view {
+    width: 100px;
+}
+/* 게시판 - E */
+/* page-nation - S */
+.page-nation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.page-nation div a {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+/* page-nation - E */
+
+.search-sec .search-area .search-btn label input:hover {
+    background-color: #fddf43;
+}
+.news-board .news-board-list li:hover {
+    background-color: #eee;
+}
+.news-board .news-board-list li:nth-child(1):hover {
+    background-color: #fff;
+}
+.page-nation div a:hover {
+    border: none;
+    background-color: #fdd000;
+}
+
+/* sub-main5-3 - E */
+
+
+/* max-width :800px */
+@media all and (max-width : 800px) {
+    html {
+        font-size: 9px;
+    }
+    .inner {
+        padding: 0 20px;
+    }
+    /* sub5-3-main - S */
+    /* 검색창 - S */
+    .search-sec .search-area {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .search-sec .search-area .search-box {
+        height: 40px;
+        padding: 5px;
+    }
+    .search-sec .search-area select {
+        width: 30%;
+    }
+    .search-sec .search-area .search-txt {
+        width: calc(70% - 5px);
+    }
+    .search-sec .search-area .search-btn {
+        width: 100%;
+    }
+    .search-sec .search-area .search-btn label input {
+        width: 100%;
+    }
+    /* 검색창 - E */
+    /* 탭메뉴 - S */
+    .tab-menu li a {
+        font-size: 1.2rem;
+    }
+    /* 탭메뉴 - E */
+    /* 게시판 - S */
+    .notice-board .notice-board-list li span:nth-child(1),
+    .notice-board .notice-board-list li span:nth-child(3),
+    .notice-board .notice-board-list li span:nth-child(5) {
+        display: none;
+    }
+    .notice-board .notice-board-list li .board-title {
+        width: calc(100% - 100px);
+    }
+    /* sub-main5-3 - E */
+
+}

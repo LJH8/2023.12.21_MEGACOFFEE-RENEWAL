@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+
+/* sub4-1-main - S */
+.sub4-2-main {}
+.interior-inside {
+    padding: 100px 0;
+    background-color: #f4f6f8;
+}
+.interior-inside .inner {
+    display: flex;
+    gap: 20px;
+}
+.interior1 {
+    position: relative;
+    width: calc((100% - 20px) / 2);
+}
+.interior1 p {}
+.interior1 p img {
+    width: 100%;
+}
+.interior1 .interior1-txt {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 71%;
+    color: #fff;
+    padding: 64px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.interior1 .interior1-txt h3 {
+    font-weight: 900;
+    font-size: 4.3rem;
+    letter-spacing: -2px;
+    margin-bottom: 15px;
+}
+.interior1 .interior1-txt strong {
+    display: block;
+    margin-bottom: 40px;
+}
+.interior1 .interior1-txt p {}
+.interior2 {
+    width: calc((100% - 20px) / 2);
+}
+.interior2 .interior2-1 {}
+.interior2 .interior2-1 img {}
+.interior2 span {
+    display: block;
+    font-weight: 900;
+    font-size: 3.4rem;
+    text-align: center;
+    color: #000;
+    margin: 50px 0 15px;
+}
+.interior2 span em {
+    color: #fdd000;
+}
+.interior2 strong {
+    display: block;
+    font-size: 1.9rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 51px;
+}
+.interior2 .interior2-2 {
+    display: flex;
+    gap: 20px;
+}
+.interior2 .interior2-2 p {
+    width: calc((100% - 20px) / 2);
+}
+.interior2 .interior2-2 p img {}
+
+.interior-exterior {
+    padding: 100px 0;
+}
+.interior-exterior .inner {}
+.interior-exterior .interior-exterior-list {
+    display: flex;
+    gap: 20px;
+}
+.interior-exterior .interior-exterior-list:nth-child(1) {
+    margin-bottom: 50px;
+    border-bottom: 10px solid #fdd000;
+}
+.interior-exterior .interior-exterior-list > li {
+    width: calc((100% - 20px) / 3);
+}
+.interior-exterior .interior-exterior-list li header {
+    font-weight: 900;
+    font-size: 4.3rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+.interior-exterior .interior-exterior-list li h3 {
+    margin-bottom: 20px;
+}
+.interior-exterior .interior-exterior-list li p {
+    width: 80%;
+}
+.interior-exterior-list-point {
+    display: flex;
+    gap: 20px;
+}
+.interior-exterior-list-point li {}
+.interior-exterior-list-point li figure {
+    width: 75%;
+    margin: 0 auto 20px;
+}
+
+.interior-exterior-list-point li figure img {}
+.interior-exterior-list-point li strong {
+    display: block;
+    text-align: center;
+}
+.interior-exterior .interior-exterior-list figure {}
+.interior-exterior .interior-exterior-list figure img {}
+.interior-exterior .interior-exterior-txt {}
+.interior-exterior .interior-exterior-txt span {
+    display: block;
+    font-weight: 900;
+    font-size: 3.4rem;
+    text-align: center;
+    color: #000;
+    margin: 50px 0 15px;
+}
+.interior-exterior .interior-exterior-txt span em {
+    color: #fdd000;
+}
+.interior-exterior .interior-exterior-txt strong {
+    display: block;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+/* sub-main4-2 - E */
+
+/* max-width :800px */
+@media all and (max-width : 800px) {
+    html {
+        font-size: 9px;
+    }
+    .inner {
+        padding: 0 20px;
+    }
+    /* sub4-1-main - S */
+    .interior-inside .inner {
+        display: block;
+    }
+    .interior1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .interior1 .interior1-txt {
+        width: 100%;
+    }
+    .interior2 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .interior2 .interior2-2 {
+        display: block;
+    }
+    .interior2 .interior2-2 p {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .interior-exterior .interior-exterior-list {
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .interior-exterior .interior-exterior-list:nth-child(2) {
+        display: block;
+    }
+    .interior-exterior .interior-exterior-list:nth-child(2) li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .interior-exterior .interior-exterior-list > li {
+        width: calc(100% / 2);
+    }
+    .interior-exterior-list-point li figure {
+        width: 100%;
+    }
+    .interior-exterior-list-point li strong {
+        font-size: 1.2rem;
+    }
+    .interior-exterior .interior-exterior-list li header {
+        font-size: 3rem;
+    }
+    .interior-exterior .interior-exterior-list li h3 {
+        font-size: 1.8rem;
+    }
+    .interior-exterior .interior-exterior-list li p {
+        font-size: 1.3rem;
+    }
+    /* sub-main4-2 - E */
+
+}

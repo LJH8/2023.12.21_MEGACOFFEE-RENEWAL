@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+
+/* sub4-1-main - S */
+.sub4-1-main {
+    padding: 100px 0;
+}
+.sub4-1-main .inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.opencost {
+    width: calc((100% - 40px) / 2);
+    text-align: center;
+}
+.opencost .sub-header {
+    font-size: 2rem;
+}
+.opencost .sub-tit {
+    font-size: 3.6rem;
+}
+.opencost table thead tr {
+    color: #fff;
+    background-color: #1c1c1b;
+}
+.opencost table thead tr th {
+    vertical-align: middle;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.opencost table tbody tr td {
+    text-align: start;
+    vertical-align: middle;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.opencost table tbody tr .opencost-title {
+    background-color: #f4f6f8;
+}
+.opencost table tbody tr .free {
+    color: #f00;
+}
+.opencost table tbody tr th {
+    text-align: start;
+    vertical-align: middle;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.opencost table tfoot tr td {
+    text-align: center;
+    color: #000;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #fdd000;
+}
+.opencost table tfoot tr td span {
+    font-weight: 700;
+    font-size: 2rem;
+}
+.opencost-more {
+    width: 100%;
+    text-align: center;
+}
+.opencost-more strong {
+    display: block;
+    margin-bottom: 20px;
+}
+.opencost-more span {
+    display: block;
+}
+
+/* sub-main4-1 - E */
+
+/* max-width :800px */
+@media all and (max-width : 800px) {
+    html {
+        font-size: 9px;
+    }
+    .inner {
+        padding: 0 20px;
+    }
+    /* sub4-1-main - S */
+    .sub4-1-main .inner {
+        display: block;
+    }
+    .opencost {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .opencost table tbody tr .opencost-title {
+        font-size: 1.2rem;
+    }
+    .opencost table thead tr th {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    .opencost table tbody tr td {
+        padding: 10px;
+        font-size: 1.2rem;
+    }
+    /* sub-main4-1 - E */
+
+}

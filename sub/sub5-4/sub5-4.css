@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+
+/* sub5-4-main - S */
+.sub5-4-main {
+    padding: 100px 0;
+}
+.sub5-4-main .inner {}
+.sub5-4-main .VOC-txt {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sub5-4-main .VOC-txt p {
+    width: 37%;
+    font-size: 2.2rem;
+    color: #000;
+    margin: 0 auto 20px;
+}
+.sub5-4-main .VOC-txt span {}
+.sub5-4-main .VOC-txt a {
+    display: block;
+    width: 130px;
+    font-weight: 500;
+    color: #000;
+    line-height: 24px;
+    padding: 10px;
+    margin: 30px auto;
+    background-color: #fdd000;
+    transition: all 0.3s;
+}
+.VOC-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.VOC-list li {
+    width: calc((100% - 40px) / 3);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+.VOC-list li .VOC-list-tit {
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.VOC-list li .VOC-list-desc {
+    padding: 20px 0;
+}
+.VOC-list li:nth-child(2) .VOC-list-desc {
+    padding: 20px 20px;
+}
+.VOC-list li .VOC-list-move {
+    display: block;
+    padding: 10px 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+/* sub-main5-4 - E */
+
+
+/* max-width :800px */
+@media all and (max-width : 800px) {
+    html {
+        font-size: 9px;
+    }
+    .inner {
+        padding: 0 20px;
+    }
+    /* sub5-4-main - S */
+    .sub5-4-main .VOC-txt p {
+        width: 100%;
+    }
+    .VOC-list li {
+        width: calc((100% - 20px) / 2);
+        padding: 10px;
+    }
+    .VOC-list li .VOC-list-tit {
+        padding-bottom: 10px;
+    }
+    /* sub-main5-4 - E */
+}
