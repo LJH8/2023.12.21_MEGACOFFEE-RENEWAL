@@ -23,20 +23,15 @@
 .tab-menu li {
     width: calc(100% / 4);
     height: 50px;
+    text-align: center;
+    line-height: 50px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #f4f6f8;
+    cursor: pointer;
 }
-.tab-menu li:nth-child(1) {
+.tab-menu li.active {
     border-bottom: none;
     background-color: #fff;
-}
-.tab-menu li a {
-    display: block;
-    width: 100%;
-    height: 50px;
-    font-size: 1.6rem;
-    line-height: 50px;
-    text-align: center;
 }
 /* 탭메뉴 - E */
 /* 검색창 - S */

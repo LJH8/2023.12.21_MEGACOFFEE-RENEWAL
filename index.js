@@ -8,5 +8,6 @@ allmenubtn.onclick = function () {
 
 closebtn.onclick = function () {
     allmenubg.classList.toggle("active");
-}
+};
+
 

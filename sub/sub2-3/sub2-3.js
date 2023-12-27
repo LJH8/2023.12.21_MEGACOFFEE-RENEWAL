@@ -1,10 +1,10 @@
 const checkBoxs = document.querySelectorAll('input[name="food"]');
-const foodList = document.querySelector(".sub-menu-list-item");
+const itemList = document.querySelector(".sub-menu-list-item");
 const all = document.querySelector('input[value="all"]');
 const newItem = document.querySelector('input[value="newItem"]');
 
 function clickList() {
-  foodList.querySelectorAll('li').forEach((li) => {
+  itemList.querySelectorAll('li').forEach((li) => {
     li.addEventListener("click", (e) => {
       // console.log(e.target);
       // console.log(e.currentTarget);
@@ -19,12 +19,12 @@ function clickList() {
 }
 
 window.addEventListener("load", () => {
-  fetch('/2023.12.21_MEGACOFFEE-RENEWAL/sub/sub2-2/sub2-2data.json')
+  fetch('/2023.12.21_MEGACOFFEE-RENEWAL/sub/sub2-3/sub2-3data.json')
     .then((respon) => respon.json())
     .then((json) => {
-      json.food.forEach((item) => {
-        foodList.innerHTML += `
-          <li class="${item.item}" id="${item.id}">
+      json.item.forEach((item) => {
+        itemList.innerHTML += `
+          <li class="${item.itemName}">
             <img src="${item.img}" alt="메뉴 사진">
             <h4>${item.name}</h4>
             <span>${item.eName}</span>
@@ -36,8 +36,7 @@ window.addEventListener("load", () => {
                 <button type="button" class="close-btn"></button>
               </div>
               <div class="item-detailPage-body">
-                <em>${item.gram}g</em>
-                <span>1회 제공량 ${item.Kcal}Kcal</span>
+                <em>${item.ml}</em>
                 <p>${item.desc}</p>
               </div>
             </div>
@@ -48,16 +47,15 @@ window.addEventListener("load", () => {
     });
 });
 
-function filterFood() {
+function filterItem() {
   all.checked = false;
-  newItem.checked = false;
   const checkedFood = [];
   checkBoxs.forEach((checkBox) => {
     if (checkBox.checked) {
       checkedFood.push(checkBox.value);
     }
   });
-  foodList.querySelectorAll('li').forEach((li) => {
+  itemList.querySelectorAll('li').forEach((li) => {
       if (checkedFood.includes(li.className)) {
       li.style.display = "block";
     } else {
@@ -68,15 +66,14 @@ function filterFood() {
 }
 
 checkBoxs.forEach((checkBox) => {
-  checkBox.addEventListener("change", filterFood);
+  checkBox.addEventListener("change", filterItem);
 });
 
 all.addEventListener("change", () => {
   checkBoxs.forEach((checkBox) => {
     checkBox.checked = false;
   });
-  newItem.checked = false
-  foodList.querySelectorAll('li').forEach((li) => {
+  itemList.querySelectorAll('li').forEach((li) => {
     li.style.display = "block";
     if (all.checked == false) {
       li.style.display = "none";
@@ -84,23 +81,6 @@ all.addEventListener("change", () => {
   });
 });
 
-newItem.addEventListener("change", () => {
-  checkBoxs.forEach((checkBox) => {
-    checkBox.checked = false;
-  });
-  all.checked = false;
-  foodList.querySelectorAll('li').forEach((li) => {
-    if(li.id == "newItem") {
-      li.style.display = "block"
-    }
-    else {
-      li.style.display = "none"
-    }
-    if (newItem.checked == false) {
-      li.style.display = "none";
-    }
-  });
-});
 
 
 

@@ -1,6 +1,7 @@
 {
   "drink": [
     {
+      "id" : "oldItem",
       "item": "Coffee",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink5.jpg",
       "name": "할메가커피",
@@ -10,6 +11,7 @@
       "Kcal": "281.9"
     },
     {
+      "id" : "newItem",
       "item": "Coffee",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink6.jpg",
       "name": "왕할메가커피",
@@ -19,6 +21,7 @@
       "Kcal": "468.7"
     },
     {
+      "id" : "newItem",
       "item": "Ade&juice",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink3.jpg",
       "name": "스노우 샹그리아 에이드",
@@ -28,6 +31,7 @@
       "Kcal": "281.9"
     },
     {
+      "id" : "oldItem",
       "item": "Ade&juice",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink4.jpg",
       "name": "화이트 뱅쇼",
@@ -37,6 +41,7 @@
       "Kcal": "281.9"
     },
     {
+      "id" : "oldItem",
       "item": "Ade&juice",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink8.jpg",
       "name": "레드 오렌지 자몽 주스",
@@ -46,6 +51,7 @@
       "Kcal": "281.9"
     },
     {
+      "id" : "newItem",
       "item": "Smoothie&Frappe",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink7.png",
       "name": "코코넛 쿠키 스무디",
@@ -55,6 +61,7 @@
       "Kcal": "281.9"
     },
     {
+      "id" : "oldItem",
       "item": "Smoothie&Frappe",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink1.jpg",
       "name": "스모어 블랙쿠키 프라페",
@@ -64,6 +71,7 @@
       "Kcal": "281.9"
     },
     {
+      "id" : "newItem",
       "item": "Smoothie&Frappe",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-drink2.jpg",
       "name": "스모어 카라멜쿠키 프라페",

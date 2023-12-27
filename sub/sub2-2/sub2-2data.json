@@ -1,8 +1,8 @@
 {
   "food": [
     {
+      "id": "newItem",
       "item": "Dessert",
-      "item2": "newItem",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food1.jpg",
       "name": "따끈따끈 간식꾸러미",
       "eName": "Korean Street Dessert Pack",
@@ -11,6 +11,7 @@
       "Kcal": "521.79"
     },
     {
+      "id": "newItem",
       "item": "Dessert",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food2.jpg",
       "name": "초코스모어쿠키",
@@ -20,6 +21,7 @@
       "Kcal": "578.9"
     },
     {
+      "id": "newItem",
       "item": "Dessert",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food3.jpg",
       "name": "와앙 피자 보름달빵",
@@ -29,7 +31,8 @@
       "Kcal": "429"
     },
     {
-      "item": "Ade&juice",
+      "id": "oldItem",
+      "item": "Dessert",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food4.jpg",
       "name": "와앙 콘마요 보름달빵",
       "eName": "Corn mayonnaise Bread",
@@ -38,7 +41,8 @@
       "Kcal": "506"
     },
     {
-      "item": "Ade&juice",
+      "id": "newItem",
+      "item": "Dessert",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food5.jpg",
       "name": "뚱크림치즈약과쿠키",
       "eName": "Cream Cheese Yakgwa Cookie",
@@ -47,7 +51,8 @@
       "Kcal": "606"
     },
     {
-      "item": "Smoothie&Frappe",
+      "id": "newItem",
+      "item": "Dessert",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food6.jpg",
       "name": "오트밀 팬케이크",
       "eName": "Oatmeal Pancake",
@@ -56,7 +61,8 @@
       "Kcal": "400"
     },
     {
-      "item": "Smoothie&Frappe",
+      "id": "oldItem",
+      "item": "Dessert",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food7.jpg",
       "name": "티라미수 팬케이크",
       "eName": "Tiramisu Pancake",
@@ -65,7 +71,8 @@
       "Kcal": "600"
     },
     {
-      "item": "Smoothie&Frappe",
+      "id": "oldItem",
+      "item": "Dessert",
       "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-food8.jpg",
       "name": "그래놀라 스모어 쿠키",
       "eName": "Granola S'mores Cookie",

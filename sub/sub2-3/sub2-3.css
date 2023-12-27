@@ -2,6 +2,14 @@
 
 
 /* sub2-3-main - S */
+/* sub2-3-main-common - S */
+.show {
+  display: block;
+}
+.hiding {
+  display: none;
+}
+/* sub2-3-main-common - E */
 /* sub-menu-info - S */
 .sub2-3-main {
   padding: 100px 20px;
@@ -107,6 +115,7 @@
   padding: 20px 0;
 }
 .sub-menu-list-item li {
+  position: relative;
   width: calc((100% - 60px) / 4);
   text-align: start;
   cursor: pointer;
@@ -130,6 +139,71 @@
 .sub-menu-list-item li p {
   font-size: 1.4rem;
   padding: 10px 0 20px;
+}
+.item-detailPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  text-align: start;
+  padding: 10%;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  display: none;
+}
+.item-detailPage.show {
+  display: block;
+}
+.item-detailPage .item-detailPage-header {
+  position: relative;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.item-detailPage .item-detailPage-header h5 {
+  color: #000;
+  font-size: 1.9rem;
+}
+.item-detailPage .item-detailPage-header span {
+  font-size: 1.3rem;
+}
+.item-detailPage .item-detailPage-header button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.item-detailPage .item-detailPage-header button::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transform: rotate(45deg);
+}
+.item-detailPage .item-detailPage-header button::after {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transform: rotate(-45deg);
+}
+.item-detailPage .item-detailPage-body {
+  padding: 20px 0;
+}
+.item-detailPage .item-detailPage-body em {
+  display: block;
+  font-size: 1.4rem;
+}
+.item-detailPage .item-detailPage-body span {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
 }
 .page-nation {
   display: flex;

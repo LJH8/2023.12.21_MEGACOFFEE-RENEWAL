@@ -1,0 +1,52 @@
+{
+  "all": [
+    {
+      "id": "tab1",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-event-img1.jpg",
+      "title": "겨울시즌 오픈 기념 이벤트",
+      "writer": "메가MGC커피"
+    },
+    {
+      "id": "tab1",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-event-img2.png",
+      "title": "[이벤트] 메가MGC커피 X...",
+      "writer": "메가MGC커피"
+    },
+    {
+      "id": "tab2",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-event-img3.jpg",
+      "title": "[이벤트] 9~12월 메가MG...",
+      "writer": "메가MGC커피"
+    },
+    {
+      "id": "tab2",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-event-img4.png",
+      "title": "메가MGC커피 X 페이코...",
+      "writer": "메가MGC커피"
+    },
+    {
+      "id": "tab3",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-event-img5.jpg",
+      "title": "'즐거움이 커진다' 손흥...",
+      "writer": "메가MGC커피"
+    },
+    {
+      "id": "tab3",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-event-img6.jpg",
+      "title": "KT 멤버십 VIP 초이스",
+      "writer": "메가MGC커피"
+    },
+    {
+      "id": "tab4",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-event-img7.jpg",
+      "title": "[이벤트] 메가MGC커피 X...",
+      "writer": "메가MGC커피"
+    },
+    {
+      "id": "tab4",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-event-img8.png",
+      "title": "[이벤트] 카카오페이, 5.0...",
+      "writer": "메가MGC커피"
+    }
+  ]
+}

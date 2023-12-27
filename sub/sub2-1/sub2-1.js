@@ -1,6 +1,7 @@
 const checkBoxs = document.querySelectorAll('input[name="drink"]');
 const drinkList = document.querySelector(".sub-menu-list-item");
 const all = document.querySelector('input[value="all"]');
+const newItem = document.querySelector('input[value="newItem"]');
 
 function clickList() {
   drinkList.querySelectorAll('li').forEach((li) => {
@@ -23,7 +24,7 @@ window.addEventListener("load", () => {
     .then((json) => {
       json.drink.forEach((item) => {
         drinkList.innerHTML += `
-          <li class="${item.item}">
+          <li class="${item.item}" id="${item.id}">
             <img src="${item.img}" alt="메뉴 사진">
             <h4>${item.name}</h4>
             <span>${item.eName}</span>
@@ -49,6 +50,7 @@ window.addEventListener("load", () => {
 
 function filterDrink() {
   all.checked = false;
+  newItem.checked = false;
   const checkedDrink = [];
   checkBoxs.forEach((checkBox) => {
     if (checkBox.checked) {
@@ -73,9 +75,28 @@ all.addEventListener("change", () => {
   checkBoxs.forEach((checkBox) => {
     checkBox.checked = false;
   });
+  newItem.checked = false
   drinkList.querySelectorAll('li').forEach((li) => {
     li.style.display = "block";
     if (all.checked == false) {
+      li.style.display = "none";
+    }
+  });
+});
+
+newItem.addEventListener("change", () => {
+  checkBoxs.forEach((checkBox) => {
+    checkBox.checked = false;
+  });
+  all.checked = false;
+  drinkList.querySelectorAll('li').forEach((li) => {
+    if(li.id == "newItem") {
+      li.style.display = "block"
+    }
+    else {
+      li.style.display = "none"
+    }
+    if (newItem.checked == false) {
       li.style.display = "none";
     }
   });

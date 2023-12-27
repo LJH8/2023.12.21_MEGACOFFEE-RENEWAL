@@ -1,0 +1,64 @@
+{
+  "item": [
+    {
+      "itemName": "item",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-item1.jpg",
+      "name": "엠지씨 머그(옐로우)",
+      "eName": "MGC MUG (Yellow)",
+      "desc": "귀여운 디테일로 소장가치를 더한 대용량 머그",
+      "ml": "590ml" 
+    },
+    {
+      "itemName": "item",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-item2.png",
+      "name": "MGC 텀블러(웜그레이)",
+      "eName": "MGC Tumbler (Warm Grey)",
+      "desc": "뛰어난 보온보냉력으로 하루종일 그대로, MGC 데일리 텀블러",
+      "ml": "650ml"
+    },
+    {
+      "itemName": "item",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-item3.png",
+      "name": "MGC 텀블러(옐로우)",
+      "eName": "MGC Tumbler (Yellow Grey)",
+      "desc": "뛰어난 보온보냉력으로 하루종일 그대로, MGC 데일리 텀블러",
+      "ml": "650ml"      
+    },
+    {
+      "itemName": "item",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-item4.png",
+      "name": "MGC 텀블러(스카이)",
+      "eName": "MGC Tumbler (Sky)",
+      "desc": "뛰어난 보온보냉력으로 하루종일 그대로, MGC 데일리 텀블러",
+      "ml": "650ml"
+    },
+    {
+      "itemName": "item",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-item5.jpg",
+      "name": "메가 엠지씨 스틱 오리지날 아...",
+      "eName": "MEGA MGC STICK ORIGINAL AMERICANO",
+      "desc": "예가체프 원두의 레드와인을 연상케 하는 깊은 풍미, 화이트 초콜릿의 고급스런 단 맛에 풍부한 바디감을 더해 밸런스 잡힌 맛을 느낄 수 있는 아메리카노"
+    },
+    {
+      "itemName": "item",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-item6.jpg",
+      "name": "메가 엠지씨 스틱 디카페인 아...",
+      "eName": "MEGA MGC STICK DECAF AMERICANO",
+      "desc": "물의 삼투압을 이용한 독일 워터 프로세스 방식으로 카페인을 줄이고,브라질 원두 특유의 산미와 달콤함, 바디감은 고스란히 담아 조화로운 맛을 느낄 수 있는 아메리카노"
+    },
+    {
+      "itemName": "item",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-item7.jpg",
+      "name": "메가 엠지씨 스틱 스테비아 믹스커피",
+      "eName": "MEGA MGC STICK STEVIA MIX COFFEE",
+      "desc": "무지방 우유가 함유된 프리마로 커피 본연의 맛은 배가시키고대체 감미료 스테비아로 당과 칼로리를 낮춰 부담 없이 달콤한 라떼의 맛을 즐길 수 있는 믹스커피"
+    },
+    {
+      "itemName": "item",
+      "img": "/2023.12.21_MEGACOFFEE-RENEWAL/img/mega-menu-item8.jpg",
+      "name": "메가 엠지씨 스틱 스테비아 디...",
+      "eName": "MEGA MGC STICK STEVIA DECAF MIX COFFEE",
+      "desc": "무지방 우유가 함유된 프리마로 커피 본연의 맛은 배가시키고 대체 감미료 스테비아로 당과 칼로리는 낮춘 디카페인임에도 밸런스 잡힌 스테비아 디카페인 믹스커피"
+    }
+  ]
+}
